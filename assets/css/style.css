@@ -1,5 +1,6 @@
 :root {
   --primary-color: rgb(116, 44, 44);
+  --secondary-color: whitesmoke;
 }
 
 * {
@@ -17,6 +18,7 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  background-color: var(--primary-color);
   border-bottom: 5px solid var(--primary-color);
 }
 
@@ -24,11 +26,13 @@ header h1 {
   font-weight: bold;
   font-size: 40px;
   padding: 10px 15px;
+  background-color: var(--primary-color);
 }
 
 header a {
   text-decoration: none;
-  color: var(--primary-color);
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
 }
 
 header nav {
@@ -58,6 +62,10 @@ h2 {
   align-items: center;
 }
 
+#about-me h2 {
+  white-space: nowrap;
+}
+
 .profile-photo img {
   width: 200px;
   height: 300px;
@@ -66,7 +74,7 @@ h2 {
 }
 
 .introduction p {
-  padding: 50px 600px 200px 0px;
+  padding: 85px 625px 200px 0px;
   font-size: 18px;
 }
 
