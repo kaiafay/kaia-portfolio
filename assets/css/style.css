@@ -36,7 +36,8 @@ header a {
 }
 
 header nav {
-  margin: 18px 10px 18px 0;
+  margin: 1%;
+  background-color: var(--primary-color);
 }
 
 header nav ul {
@@ -44,15 +45,16 @@ header nav ul {
   flex-wrap: wrap;
   justify-content: space-between;
   list-style: none;
+  background-color: var(--primary-color);
 }
 
 header nav ul li a {
   padding: 10px 30px;
-  font-size: 1.3vw;
+  font-size: 25px;
 }
 
 h2 {
-  padding: 20px;
+  padding: 1.5%;
   font-size: 28px;
   margin-right: 100px;
 }
@@ -74,7 +76,7 @@ h2 {
 }
 
 .introduction p {
-  padding: 85px 625px 200px 0px;
+  padding: 5% 35% 5% 2%;
   font-size: 18px;
 }
 
@@ -82,17 +84,46 @@ h2 {
   display: flex;
 }
 
+.project {
+  max-width: 700px;
+  width: 100%;
+}
+
 .project img {
-  width: 700px;
-  height: 350px;
+  width: 100%;
+  height: auto;
   border-radius: 12px;
 }
 
-.project a {
+.project a,
+.banner a {
   font-weight: bold;
   text-decoration: none;
   color: var(--primary-color);
   font-size: 18px;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1400px;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+}
+
+.project-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.project-wrapper .project {
+  padding: 5%;
 }
 
 #contact {
@@ -100,6 +131,11 @@ h2 {
   justify-content: space-between;
 }
 
-.contact-info a {
-  padding: 0 20px;
+.contact-info a,
+.social-media a {
+  border: 10px solid var(--primary-color);
+  border-radius: 5px;
+  text-decoration: none;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
 }
