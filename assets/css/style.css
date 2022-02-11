@@ -133,9 +133,15 @@ h2 {
 
 .contact-info a,
 .social-media a {
+  display: inline-block;
   border: 10px solid var(--primary-color);
   border-radius: 5px;
   text-decoration: none;
   color: var(--secondary-color);
   background-color: var(--primary-color);
+}
+
+.contact-info,
+.social-media {
+  margin: 1.2%;
 }
