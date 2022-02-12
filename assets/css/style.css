@@ -154,4 +154,7 @@ h2 {
 }
 
 @media screen and (max-width: 575px) {
+  #about-me {
+    flex-direction: column;
+  }
 }
