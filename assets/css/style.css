@@ -1,19 +1,23 @@
-:root {
+/* set theme colors as variables */
+root {
   --primary-color: rgb(116, 44, 44);
   --secondary-color: whitesmoke;
 }
 
+/* uniform styling for the entire page */
 * {
   margin: 0;
   padding: 0;
   background-color: whitesmoke;
 }
 
+/* font and color for the body */
 body {
   font-family: Helvetica, Arial, sans-serif;
   color: var(--primary-color);
 }
 
+/* make header flex for responsive layout */
 header {
   display: flex;
   justify-content: space-between;
@@ -22,6 +26,7 @@ header {
   border-bottom: 5px solid var(--primary-color);
 }
 
+/* make the porfolio title big and bold */
 header h1 {
   font-weight: bold;
   font-size: 40px;
@@ -29,17 +34,20 @@ header h1 {
   background-color: var(--primary-color);
 }
 
+/* style the nav links */
 header a {
   text-decoration: none;
   color: var(--secondary-color);
   background-color: var(--primary-color);
 }
 
+/* fix spacing for the nav bar */
 header nav {
   margin: 1%;
   background-color: var(--primary-color);
 }
 
+/* make nav links flex for responsive layout */
 header nav ul {
   display: flex;
   flex-wrap: wrap;
@@ -48,26 +56,31 @@ header nav ul {
   background-color: var(--primary-color);
 }
 
+/* space out the nav bar links and set font size */
 header nav ul li a {
   padding: 10px 30px;
   font-size: 25px;
 }
 
+/* set styling for all h2 */
 h2 {
   padding: 1.5%;
   font-size: 28px;
   margin-right: 100px;
 }
 
+/* make about me section responsive with flex */
 #about-me {
   display: flex;
   align-items: center;
 }
 
+/* set the "about me" on one line */
 #about-me h2 {
   white-space: nowrap;
 }
 
+/* style the profile image */
 .profile-photo img {
   width: 200px;
   height: 300px;
@@ -75,26 +88,31 @@ h2 {
   border-radius: 20px;
 }
 
+/* style the paragraph so it sits nicely next to the profile image */
 .introduction p {
   padding: 5% 35% 5% 2%;
   font-size: 18px;
 }
 
+/* make work section responsive with flex */
 #work {
   display: flex;
 }
 
+/* set styling for all projects */
 .project {
   max-width: 700px;
   width: 100%;
 }
 
+/* set styline for all project images */
 .project img {
   width: 100%;
   height: auto;
   border-radius: 12px;
 }
 
+/* set styling for all project anchor tags so they stand out */
 .project a,
 .banner a {
   font-weight: bold;
@@ -103,6 +121,7 @@ h2 {
   font-size: 18px;
 }
 
+/* make the first project biggest so it stands out */
 .banner {
   display: flex;
   flex-direction: column;
@@ -110,27 +129,32 @@ h2 {
   max-width: 1400px;
 }
 
+/* make the first project picture biggest */
 .banner img {
   width: 100%;
   height: auto;
   border-radius: 14px;
 }
 
+/* set the other 2 projects next to each other */
 .project-wrapper {
   display: flex;
   flex-direction: row;
   width: 100%;
 }
 
+/* fix padding on the other 2 projects */
 .project-wrapper .project {
   padding: 5%;
 }
 
+/* make contact section responsive with flex */
 #contact {
   display: flex;
   justify-content: space-between;
 }
 
+/* style all anchor tags in the contact section */
 .contact-info a,
 .social-media a {
   display: inline-block;
@@ -141,11 +165,13 @@ h2 {
   background-color: var(--primary-color);
 }
 
+/* fix margin on contact info and social medias */
 .contact-info,
 .social-media {
   margin: 1.2%;
 }
 
+/* adjust the paragraph when screen width reaches breakpoint 768px */
 @media screen and (max-width: 768px) {
   .introduction p {
     padding: 5% 15% 5% 3%;
@@ -153,6 +179,7 @@ h2 {
   }
 }
 
+/* make the about me section stack when screen width reaches breakpoint 575px */
 @media screen and (max-width: 575px) {
   #about-me {
     flex-direction: column;
