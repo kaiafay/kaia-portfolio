@@ -1,5 +1,5 @@
 /* set theme colors as variables */
-root {
+:root {
   --primary-color: rgb(116, 44, 44);
   --secondary-color: whitesmoke;
 }
