@@ -1,108 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Kaia Scheirman's Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <!-- title for portfolio -->
-        <h1>
-            <a href="/">Kaia Scheirman</a>
-        </h1>
-        <!-- nav bar for "about me", "work", and "contact" -->
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <!-- link that leads to the corresponding section of the page -->
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-        </nav>
+      <!-- title for portfolio -->
+      <h1>
+        <a href="/">Kaia Scheirman</a>
+      </h1>
+      <!-- nav bar for "about me", "work", and "contact" -->
+      <nav>
+        <ul>
+          <li>
+            <a href="#about-me">About Me</a>
+          </li>
+          <li>
+            <a href="#work">Work</a>
+          </li>
+          <li>
+            <!-- link that leads to the corresponding section of the page -->
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <!-- "about me" section -->
     <section id="about-me">
-        <h2>About Me</h2>
-        <div class="profile-photo">
-            <!-- profile image -->
-            <img src="./assets/images/avatar.JPG" alt="woman with shoulder length black hair wearing a dark blue blouse">
-        </div>
-        <!-- "about me" info -->
-        <div class="introduction">
-            <p>
-                Hello, and welcome to my website! My name is Kaia Scheirman. I am a 22-year-old aspiring 
-                web developer who currently resides in Eugene, Oregon. My hobbies include reading, 
-                psychology, and entertaining my perpetually unamused cat. I am a fast learner and have a 
-                thirst for learning that is never quite quenched.
-                <br />
-                I started my programming journey in February of 2021. I am currently
-                completing a Full Stack Coding Bootcamp through University of Oregon. 
-                My goal after completion is to secure a job in the field of web development.
-            </p>
-        </div>
+      <h2>About Me</h2>
+      <div class="profile-photo">
+        <!-- profile image -->
+        <img
+          src="./assets/images/avatar.JPG"
+          alt="woman with shoulder length black hair wearing a dark blue blouse"
+        />
+      </div>
+      <!-- "about me" info -->
+      <div class="introduction">
+        <p>
+          Hello, and welcome to my website! My name is Kaia Scheirman. I am a
+          22-year-old aspiring web developer who currently resides in Eugene,
+          Oregon. My hobbies include reading, psychology, and entertaining my
+          perpetually unamused cat. I am a fast learner and have a thirst for
+          learning that is never quite quenched.
+          <br />
+          I started my programming journey in February of 2021. I am currently
+          completing a Full Stack Coding Bootcamp through University of Oregon.
+          My goal after completion is to secure a job in the field of web
+          development.
+        </p>
+      </div>
     </section>
 
     <!-- "work" section -->
     <section id="work">
-        <h2>Work</h2>
-        <div class="portfolio">
-            <!-- "banner" class to individualize the styling so the first project is biggest -->
-            <article class="banner">
-                <a href="https://kaiafay.github.io/run-buddy/" target="_blank">
-                    <img src="./assets/images/runbuddy.jpg" alt="a landing page with a form on it"> <br />Run Buddy
-                </a>
-                <p>
-                    A landing page for a company that pairs people with personal trainers.
-                    Created with HTML and CSS.
-                </p>
-            </article>
+      <h2>Work</h2>
+      <div class="portfolio">
+        <!-- "banner" class to individualize the styling so the first project is biggest -->
+        <article class="banner">
+          <a href="https://kaiafay.github.io/run-buddy/" target="_blank">
+            <img
+              src="./assets/images/runbuddy.jpg"
+              alt="a landing page with a form on it"
+            />
+            <br />Run Buddy
+          </a>
+          <p>
+            A landing page for a company that pairs people with personal
+            trainers. Created with HTML and CSS.
+          </p>
+        </article>
 
-            <div class="project-wrapper">
-            <article class="project">
-                <!-- image of the project that leads to the deployed application -->
-                <a href="https://kaiafay.github.io/tip-calculator/" target="_blank">
-                    <img src="./assets/images/tipcalculator.jpg" alt="a tip calculator based off percentage of your bill"> <br />Tip Calculator
-                </a>
-                <p>A tip calculator created with HTML, CSS, and JavaScript.</p>
-            </article>
+        <div class="project-wrapper">
+          <article class="project">
+            <!-- image of the project that leads to the deployed application -->
+            <a href="https://kaiafay.github.io/tip-calculator/" target="_blank">
+              <img
+                src="./assets/images/tipcalculator.jpg"
+                alt="a tip calculator based off percentage of your bill"
+              />
+              <br />Tip Calculator
+            </a>
+            <p>A tip calculator created with HTML, CSS, and JavaScript.</p>
+          </article>
 
-            <!-- separate articles for each project -->
-            <article class="project">
-                <a href="https://kaiafay.github.io/hidden-search/" target="_blank">
-                    <img src="./assets/images/hiddensearch.jpg" alt="a hidden search widget"> <br />Hidden Search
-                </a>
-                <p>A hidden search bar that expands when you click on it. Created with HTML, CSS, and JavaScript. </p>
-            </article>
-            </div>
+          <!-- separate articles for each project -->
+          <article class="project">
+            <a href="https://kaiafay.github.io/group-project/" target="_blank">
+              <img
+                src="./assets/images/group-project.jpg"
+                alt="an application that reads out recipes to you"
+              />
+              <br />Let's Talk Recipes!
+            </a>
+            <p>
+              An application that allows users to search for recipes and have
+              them read out loud. Created with HTML, Bulma, JavaScript, APIs,
+              and jQuery.
+            </p>
+          </article>
         </div>
+      </div>
     </section>
 
     <!-- "contact" section -->
     <section id="contact">
-        <h2>Contact</h2>
-        <div class="contact-info">
-            <!-- href leads to the user's default email, phone, and message to create smooth transaction -->
-            <a id="call" href="tel: 5415666728">Call Me</a>
-            <a id="message" href="sms: 5415666728">Send Me A Message</a>
-            <a id="email" href="mailto: KFScheirman18@gmail.com">Email Me</a>
-        </div>
+      <h2>Contact</h2>
+      <div class="contact-info">
+        <!-- href leads to the user's default email, phone, and message to create smooth transaction -->
+        <a id="call" href="tel: 5415666728">Call Me</a>
+        <a id="message" href="sms: 5415666728">Send Me A Message</a>
+        <a id="email" href="mailto: KFScheirman18@gmail.com">Email Me</a>
+      </div>
 
-        <!-- separate social media from contact info for distinction purposes -->
-        <div class="social-media">
-            <a id="github" href="https://github.com/kaiafay" target="_blank">Github</a>
-            <a id="instagram" href="https://www.instagram.com/kaiacodes/" target="_blank">Instagram</a>
-        </div>
+      <!-- separate social media from contact info for distinction purposes -->
+      <div class="social-media">
+        <a id="github" href="https://github.com/kaiafay" target="_blank"
+          >Github</a
+        >
+        <a
+          id="instagram"
+          href="https://www.instagram.com/kaiacodes/"
+          target="_blank"
+          >Instagram</a
+        >
+      </div>
     </section>
-
-</body>
+  </body>
 </html>
