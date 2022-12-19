@@ -1,7 +1,7 @@
 # Professional Portfolio
 
 ## Description
-A professional portfolio to showcase my skils and talens to potential employers. <br/>
+A professional portfolio to showcase my skills and talents to potential employers. <br/>
 Built With:
 * HTML
 * Advanced CSS (flex and media queries)
